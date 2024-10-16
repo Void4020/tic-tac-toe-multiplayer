@@ -39,7 +39,7 @@ To play multiplayer, ensure that you have set up port forwarding on your router.
    - You may need to ensure that the firewall on your computer allows incoming connections on the port.
    - Windows: Windows Defender Firewall -> Advanced Settings -> Inbound Rules -> New Rule -> Select Port, choose TCP and specify the port number, Allow Connection, Check Domain + Private + Public.
 
-### NOTE
+### Security Caution
 Setting up port forwarding and allowing incoming connections on a specific port can create potential security risks.
 This is why you should set up **Whitelisting** in your server's firewall settings.
 - Windows: Go to the same inbound rule you made -> Properties -> Scope -> Remote IP Addresses
