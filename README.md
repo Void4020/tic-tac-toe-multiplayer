@@ -13,8 +13,8 @@ You can download the executable files for both the server and client from the li
 
 - [Download Server (Windows .exe)](https://github.com/Void4020/tic-tac-toe-multiplayer/blob/main/TicTacToeServer.zip)
 - [Download Client (Windows .exe)](https://github.com/Void4020/tic-tac-toe-multiplayer/blob/main/TicTacToeClient.zip)
-- [Download Server (Mac .dmg)](link-to-server-dmg)
-- [Download Client (Mac .dmg)](link-to-client-dmg)
+- [Download Server (Mac .dmg)](link-to-server-dmg)  ~ Coming Soon
+- [Download Client (Mac .dmg)](link-to-client-dmg)  ~ Coming Soon
 
 ## Multiplayer Setup
 To play multiplayer, ensure that you have set up port forwarding on your router. Here’s how it works:
@@ -34,6 +34,10 @@ To play multiplayer, ensure that you have set up port forwarding on your router.
    - You will be prompted to enter the server's IP address.
    - If the server is on localhost, just enter localhost or `127.0.0.1`
    - If the server is accessable through a public IP, all you have to do is enter the server's **PUBLIC IP ADDRESS** (not local, that is hidden). It can be found anywhere online, e.g., [whatismyipaddress.com](https://whatismyipaddress.com)) along with the port that you ran the server on.
+  
+5. *Not Working?*
+   - You may need to ensure that the firewall on your computer allows incoming connections on the port.
+   - Windows: Windows Defender Firewall -> Advanced Settings -> Inbound Rules -> New Rule -> Select Port, choose TCP and specify the port number, Allow Connection, Check Domain + Private + Public.
 
 ## Game Rules
 The rules of Tic Tac Toe are as follows:
