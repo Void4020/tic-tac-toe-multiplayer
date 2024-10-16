@@ -35,9 +35,15 @@ To play multiplayer, ensure that you have set up port forwarding on your router.
    - If the server is on localhost, just enter localhost or `127.0.0.1`
    - If the server is accessable through a public IP, all you have to do is enter the server's **PUBLIC IP ADDRESS** (not local, that is hidden). It can be found anywhere online, e.g., [whatismyipaddress.com](https://whatismyipaddress.com)) along with the port that you ran the server on.
   
-5. *Not Working?*
+5. **Firewall Settings**
    - You may need to ensure that the firewall on your computer allows incoming connections on the port.
    - Windows: Windows Defender Firewall -> Advanced Settings -> Inbound Rules -> New Rule -> Select Port, choose TCP and specify the port number, Allow Connection, Check Domain + Private + Public.
+
+### NOTE
+Setting up port forwarding and allowing incoming connections on a specific port can create potential security risks.
+This is why you should set up **Whitelisting** in your server's firewall settings.
+- Windows: Go to the same inbound rule you made -> Properties -> Scope -> Remote IP Addresses
+- Any time someone wants to connect, make sure to add their Public IP to Remote IP Addresses
 
 ## Game Rules
 The rules of Tic Tac Toe are as follows:
