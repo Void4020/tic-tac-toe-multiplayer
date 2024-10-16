@@ -44,6 +44,8 @@ Setting up port forwarding and allowing incoming connections on a specific port 
 This is why you should set up **Whitelisting** in your server's firewall settings.
 - Windows: Go to the same inbound rule you made -> Properties -> Scope -> Remote IP Addresses
 - Any time someone wants to connect, make sure to add their Public IP to Remote IP Addresses
+However, this means that if you want to connect to the server with a device already under the same Public IP (LAN), you would have to enable **Nat Loopback / Hairpinning** on your router settings.
+Alternatively, if your router doesn't support this or you dont feel like it, on the client side, when it prompts you for the server's IP, just enter the server's **Local IP** since it is on the same LAN.
 
 ## Game Rules
 The rules of Tic Tac Toe are as follows:
