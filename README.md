@@ -13,8 +13,8 @@ You can download the executable files for both the server and client from the li
 
 - [Download Server (Windows .exe)](https://github.com/Void4020/tic-tac-toe-multiplayer/blob/main/TicTacToeServer.zip)
 - [Download Client (Windows .exe)](https://github.com/Void4020/tic-tac-toe-multiplayer/blob/main/TicTacToeClient.zip)
-- [Download Server (Mac .dmg)](link-to-server-dmg)  ~ Coming Soon
-- [Download Client (Mac .dmg)](link-to-client-dmg)  ~ Coming Soon
+- [Download Server (Mac .dmg)](https://github.com/Void4020/tic-tac-toe-multiplayer/blob/main/TicTacToeServer.dmg)
+- [Download Client (Mac .dmg)](https://github.com/Void4020/tic-tac-toe-multiplayer/blob/main/TicTacToeClient.dmg)
 
 ## Multiplayer Setup
 To play multiplayer, ensure that you have set up port forwarding on your router. Here’s how it works:
